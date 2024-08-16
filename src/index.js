@@ -9,17 +9,17 @@ const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
   // production
-  "docker.lfmwuy.top": dockerHub,
-  "quay.lfmwuy.top": "https://quay.io",
-  "gcr.lfmwuy.top": "https://gcr.io",
-  "k8s-gcr.lfmwuy.top": "https://k8s.gcr.io",
-  "k8s.lfmwuy.top": "https://registry.k8s.io",
-  "ghcr.lfmwuy.top": "https://ghcr.io",
-  "cloudsmith.lfmwuy.top": "https://docker.cloudsmith.io",
-  "ecr.lfmwuy.top": "https://public.ecr.aws",
+  "docker.sslvpn.site": dockerHub,
+  "quay.sslvpn.site": "https://quay.io",
+  "gcr.sslvpn.site": "https://gcr.io",
+  "k8s-gcr.sslvpn.site": "https://k8s.gcr.io",
+  "k8s.sslvpn.site": "https://registry.k8s.io",
+  "ghcr.sslvpn.site": "https://ghcr.io",
+  "cloudsmith.sslvpn.site": "https://docker.cloudsmith.io",
+  "ecr.sslvpn.site": "https://public.ecr.aws",
 
   // staging
-  "docker-staging.lfmwuy.top": dockerHub,
+  "docker-staging.sslvpn.site": dockerHub,
 };
 
 function routeByHosts(host) {
