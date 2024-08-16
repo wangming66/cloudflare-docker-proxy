@@ -1,3 +1,4 @@
+// add help.html
 import DOCS from './help.html'
 
 addEventListener("fetch", (event) => {
